@@ -1,4 +1,5 @@
-"problemMatcher": [
+{
+    "problemMatcher": [
     {
       "owner": "errorprone-line",
       "pattern": [
