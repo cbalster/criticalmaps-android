@@ -1,9 +1,9 @@
-  "problemMatcher": [
+"problemMatcher": [
     {
       "owner": "errorprone-line",
       "pattern": [
         {
-          "regexp": "^(.+):(\\d+):\\s+(warning|error):\\s+\[(.*)\]\\s+(.*)\\n(\[\\S\\s\]+)$",
+          "regexp": "^(.+):(\\d+):\\s+(warning|error):\\s+\\[(.*)\\]\\s+(.*)\\n([\\S\\s]+)$",
           "file": 1,
           "line": 2,
           "severity": 3,
