@@ -49,6 +49,9 @@ android {
     }
 
     lintOptions {
+        textReport project.hasProperty('isCI')
+        textOutput 'stdout'
+  
         warning 'MissingTranslation'
         warning 'StringFormatInvalid'
         warning 'NewApi'
