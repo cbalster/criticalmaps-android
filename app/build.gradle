@@ -52,7 +52,7 @@ android {
         textReport project.hasProperty('isCI')
         textOutput 'stdout'
   
-        warning 'MissingTranslation'
+        notice 'MissingTranslation'
         warning 'StringFormatInvalid'
         warning 'NewApi'
 
