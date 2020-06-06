@@ -16,7 +16,7 @@ public class App extends Application {
 
     @Override
     public void onCreate() {
-        super.onC564reate();
+        super.onCreate();
 
         if (BuildConfig.DEBUG) {
             Timber.plant(new Timber.DebugTree());

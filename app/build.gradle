@@ -49,7 +49,10 @@ android {
     }
 
     lintOptions {
-        warning 'MissingTranslation'
+        textReport project.hasProperty('isCI')
+        textOutput 'stdout'
+  
+        ignore 'MissingTranslation'
         warning 'StringFormatInvalid'
         warning 'NewApi'
 
