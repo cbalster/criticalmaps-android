@@ -26,6 +26,8 @@ jobs:
           
       - name: Setup Android problem matchers
         uses: jonasb/android-problem-matchers-action@v1
+        
+      - run: echo "::add-matcher::.github/errorprone-matcher.json"
       
       - name: Run Android Linter
         run: ./gradlew lint --stacktrace -PisCI=true
